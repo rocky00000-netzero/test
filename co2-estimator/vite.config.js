@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/test/',  // GitHub Pagesのリポジトリ名に合わせる
+  base: '/CO2-estimator/',  // GitHub Pagesのリポジトリ名に合わせる
   plugins: [react()],
   css: {
     preprocessorOptions: {
